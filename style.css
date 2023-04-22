@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container{
+    width: 90vw;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-block: 50px;
+    letter-spacing: 1.3px;
+}
+
+select{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+.user-list{
+    width: 60%;
+}
+
+.user-list .items{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin-block: 25px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.btn{
+    margin-block: 20px 50px;
+    padding: 20px;
+    width: 226px;
+    font-size: 2rem;
+}
+
+.btn:hover{
+    background-color: #e6dddd;
+}
+
+.user-inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.user-inputs div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-block: 20px;
+    padding: 10px;  
+    width: 300px;  
+    font-size: 1.6rem;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+}

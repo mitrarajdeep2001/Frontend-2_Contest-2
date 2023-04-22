@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-2 Contest-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filter-user">
+            <h3>Filter ui cards via their profession.</h3>
+            <select name="" id="select-profession">
+                <option value="select-profession">Select Profession</option>
+                <option value="developer">Developer</option>
+                <option value="admin">Admin</option>
+            </select>
+            <div class="user-list">
+                <div class="items">
+                    <div>1.</div>
+                    <div>Name : John</div>
+                    <div>Profession : Developer</div>
+                    <div>Age : 18</div>
+                </div>
+                <div class="items">
+                    <div>2.</div>
+                    <div>Name : Jack</div>
+                    <div>Profession : Developer</div>
+                    <div>Age : 20</div>
+                </div>
+                <div class="items">
+                    <div>3.</div>
+                    <div>Name : Karen</div>
+                    <div>Profession : Admin</div>
+                    <div>Age : 19</div>
+                </div>
+            </div>
+            <button id="btn-1" class="btn">Filter</button>
+        </div>
+        <div class="add-user">
+            <h3>Add a new user</h3>
+           <div class="user-inputs">
+            <div>
+                <label for="name">Enter Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="profession">Enter Profession</label>
+                <input type="text" id="profession">
+            </div>
+            <div>
+                <label for="age">Enter Age</label>
+                <input type="number" id="age">
+            </div>
+           </div>
+           <button id="btn-2" class="btn">Add User</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
